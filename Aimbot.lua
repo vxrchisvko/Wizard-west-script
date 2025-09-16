@@ -135,8 +135,7 @@ local function Load()
 					end
 				end
 
-			Environment.FOVCircle.Color = Environment.FOVSettings.LockedColor
-
+				Environment.FOVCircle.Color = Environment.FOVSettings.LockedColor
 			end
 		end
 	end)
@@ -245,5 +244,4 @@ function Environment.Functions:ResetSettings()
 end
 
 --// Load
-
 Load()
