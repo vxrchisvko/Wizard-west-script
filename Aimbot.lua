@@ -205,7 +205,7 @@ function Environment.Functions:Exit()
 
 	getgenv().Aimbot.Functions = nil
 	getgenv().Aimbot = nil
-	
+
 	Load = nil; GetClosestPlayer = nil; CancelLock = nil
 end
 
